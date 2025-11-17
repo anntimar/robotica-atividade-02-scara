@@ -1,0 +1,93 @@
+1763414497.9728804 [INFO] [launch]: All log files can be found below /home/mariaantonia/.ros/log/2025-11-17-18-21-37-969303-DESKTOP-QT5G7DJ-2819
+1763414497.9730284 [INFO] [launch]: Default logging verbosity is set to INFO
+1763414499.0346568 [INFO] [gzserver-1]: process started with pid [2821]
+1763414499.0357115 [INFO] [gzclient-2]: process started with pid [2823]
+1763414499.0359468 [INFO] [robot_state_publisher-3]: process started with pid [2825]
+1763414499.0360520 [INFO] [spawn_entity.py-4]: process started with pid [2827]
+1763414499.0361366 [INFO] [rviz2-5]: process started with pid [2829]
+1763414499.0362115 [INFO] [spawner-6]: process started with pid [2831]
+1763414499.0362873 [INFO] [spawner-7]: process started with pid [2833]
+1763414499.0363681 [INFO] [slider_publisher-8]: process started with pid [2835]
+1763414499.3937597 [robot_state_publisher-3] [INFO] [1763414499.393057515] [robot_state_publisher]: got segment base_link
+1763414499.3944929 [robot_state_publisher-3] [INFO] [1763414499.393527466] [robot_state_publisher]: got segment link1
+1763414499.3947465 [robot_state_publisher-3] [INFO] [1763414499.393567989] [robot_state_publisher]: got segment link2
+1763414499.3949406 [robot_state_publisher-3] [INFO] [1763414499.393585978] [robot_state_publisher]: got segment link3
+1763414499.3950870 [robot_state_publisher-3] [INFO] [1763414499.393600686] [robot_state_publisher]: got segment prismatic3
+1763414499.3952217 [robot_state_publisher-3] [INFO] [1763414499.393615112] [robot_state_publisher]: got segment revolute1
+1763414499.3953502 [robot_state_publisher-3] [INFO] [1763414499.393629214] [robot_state_publisher]: got segment revolute2
+1763414499.3954701 [robot_state_publisher-3] [INFO] [1763414499.393643082] [robot_state_publisher]: got segment tool0
+1763414499.3955884 [robot_state_publisher-3] [INFO] [1763414499.393656603] [robot_state_publisher]: got segment world
+1763414499.9380741 [spawner-7] [INFO] [1763414499.935428033] [spawner_joint_trajectory_controller]: waiting for service /controller_manager/list_controllers to become available...
+1763414499.9400253 [spawner-6] [INFO] [1763414499.935856420] [spawner_joint_state_broadcaster]: waiting for service /controller_manager/list_controllers to become available...
+1763414502.4282231 [rviz2-5] [INFO] [1763414502.427521607] [rviz2]: Stereo is NOT SUPPORTED
+1763414502.4290071 [rviz2-5] [INFO] [1763414502.427917983] [rviz2]: OpenGl version: 4.1 (GLSL 4.1)
+1763414502.5651031 [rviz2-5] [INFO] [1763414502.564552098] [rviz2]: Stereo is NOT SUPPORTED
+1763414504.2489004 [gzserver-1] [INFO] [1763414504.247843990] [gazebo_ros2_control]: Loading gazebo_ros2_control plugin
+1763414504.3028903 [gzserver-1] [INFO] [1763414504.301846178] [gazebo_ros2_control]: Starting gazebo_ros2_control plugin in namespace: /
+1763414504.3055978 [gzserver-1] [INFO] [1763414504.302794998] [gazebo_ros2_control]: Starting gazebo_ros2_control plugin in ros 2 node: gazebo_ros2_control
+1763414504.3583238 [gzserver-1] [INFO] [1763414504.356784352] [gazebo_ros2_control]: connected to service!! robot_state_publisher
+1763414504.3622952 [gzserver-1] [INFO] [1763414504.358752285] [gazebo_ros2_control]: Received urdf from param server, parsing...
+1763414504.3627129 [gzserver-1] [INFO] [1763414504.358939944] [gazebo_ros2_control]: Loading parameter files /home/mariaantonia/ros2_ws/install/scara_description/share/scara_description/config/scara_controllers.yaml
+1763414504.4378686 [gzserver-1] [INFO] [1763414504.437057849] [gazebo_ros2_control]: Loading joint: joint1
+1763414504.4383805 [gzserver-1] [INFO] [1763414504.437233338] [gazebo_ros2_control]: 	State:
+1763414504.4386489 [gzserver-1] [INFO] [1763414504.437329113] [gazebo_ros2_control]: 		 position
+1763414504.4395001 [gzserver-1] [INFO] [1763414504.437393299] [gazebo_ros2_control]: 			 found initial value: 0.000000
+1763414504.4398804 [gzserver-1] [INFO] [1763414504.437415444] [gazebo_ros2_control]: 		 velocity
+1763414504.4401448 [gzserver-1] [INFO] [1763414504.437425487] [gazebo_ros2_control]: 			 found initial value: 0.000000
+1763414504.4404209 [gzserver-1] [INFO] [1763414504.437435537] [gazebo_ros2_control]: 	Command:
+1763414504.4407635 [gzserver-1] [INFO] [1763414504.437493210] [gazebo_ros2_control]: 		 position
+1763414504.4417729 [gzserver-1] [INFO] [1763414504.438968421] [gazebo_ros2_control]: Loading joint: joint2
+1763414504.4420426 [gzserver-1] [INFO] [1763414504.439585976] [gazebo_ros2_control]: 	State:
+1763414504.4422829 [gzserver-1] [INFO] [1763414504.439613323] [gazebo_ros2_control]: 		 position
+1763414504.4425163 [gzserver-1] [INFO] [1763414504.439631020] [gazebo_ros2_control]: 			 found initial value: 0.500000
+1763414504.4426568 [gzserver-1] [INFO] [1763414504.439648801] [gazebo_ros2_control]: 		 velocity
+1763414504.4427710 [gzserver-1] [INFO] [1763414504.439657550] [gazebo_ros2_control]: 			 found initial value: 0.000000
+1763414504.4428749 [gzserver-1] [INFO] [1763414504.439667337] [gazebo_ros2_control]: 	Command:
+1763414504.4429710 [gzserver-1] [INFO] [1763414504.439676174] [gazebo_ros2_control]: 		 position
+1763414504.4439034 [gzserver-1] [INFO] [1763414504.442298490] [gazebo_ros2_control]: Loading joint: joint3
+1763414504.4442110 [gzserver-1] [INFO] [1763414504.442395888] [gazebo_ros2_control]: 	State:
+1763414504.4444315 [gzserver-1] [INFO] [1763414504.442424062] [gazebo_ros2_control]: 		 position
+1763414504.4448466 [gzserver-1] [INFO] [1763414504.442447955] [gazebo_ros2_control]: 			 found initial value: 0.000000
+1763414504.4451079 [gzserver-1] [INFO] [1763414504.442475951] [gazebo_ros2_control]: 		 velocity
+1763414504.4453690 [gzserver-1] [INFO] [1763414504.442493807] [gazebo_ros2_control]: 			 found initial value: 0.000000
+1763414504.4455898 [gzserver-1] [INFO] [1763414504.442513354] [gazebo_ros2_control]: 	Command:
+1763414504.4458034 [gzserver-1] [INFO] [1763414504.442532615] [gazebo_ros2_control]: 		 position
+1763414504.4467137 [gzserver-1] [INFO] [1763414504.443823359] [resource_manager]: Initialize hardware 'scara' 
+1763414504.4470205 [gzserver-1] [INFO] [1763414504.444351280] [resource_manager]: Successful initialization of hardware 'scara'
+1763414504.4472756 [gzserver-1] [INFO] [1763414504.444634972] [resource_manager]: 'configure' hardware 'scara' 
+1763414504.4522088 [gzserver-1] [INFO] [1763414504.444669189] [resource_manager]: Successful 'configure' of hardware 'scara'
+1763414504.4527791 [gzserver-1] [INFO] [1763414504.444685141] [resource_manager]: 'activate' hardware 'scara' 
+1763414504.4558082 [gzserver-1] [INFO] [1763414504.444698526] [resource_manager]: Successful 'activate' of hardware 'scara'
+1763414504.4564617 [gzserver-1] [INFO] [1763414504.445001115] [gazebo_ros2_control]: Loading controller_manager
+1763414504.4920809 [INFO] [spawn_entity.py-4]: process has finished cleanly [pid 2827]
+1763414504.5952029 [gzserver-1] [WARN] [1763414504.594533231] [gazebo_ros2_control]:  Desired controller update period (0.01 s) is slower than the gazebo simulation period (0.001 s).
+1763414504.5961802 [gzserver-1] [INFO] [1763414504.595094360] [gazebo_ros2_control]: Loaded gazebo_ros2_control.
+1763414504.7078896 [gzserver-1] [INFO] [1763414504.706976766] [controller_manager]: Loading controller 'joint_state_broadcaster'
+1763414504.8200507 [gzserver-1] [INFO] [1763414504.819394227] [controller_manager]: Loading controller 'joint_trajectory_controller'
+1763414504.8222146 [spawner-6] [INFO] [1763414504.821511476] [spawner_joint_state_broadcaster]: [94mLoaded [1mjoint_state_broadcaster[0m
+1763414504.9452648 [gzserver-1] [WARN] [1763414504.944417755] [joint_trajectory_controller]: [Deprecated]: "allow_nonzero_velocity_at_trajectory_end" is set to true. The default behavior will change to false.
+1763414504.9542158 [gzserver-1] [INFO] [1763414504.953484070] [controller_manager]: Configuring controller 'joint_state_broadcaster'
+1763414504.9600699 [spawner-7] [INFO] [1763414504.954748474] [spawner_joint_trajectory_controller]: [94mLoaded [1mjoint_trajectory_controller[0m
+1763414504.9614034 [gzserver-1] [INFO] [1763414504.954839371] [joint_state_broadcaster]: 'joints' or 'interfaces' parameter is empty. All available state interfaces will be published
+1763414505.0110004 [gzserver-1] [INFO] [1763414505.010355386] [controller_manager]: Configuring controller 'joint_trajectory_controller'
+1763414505.0119417 [gzserver-1] [INFO] [1763414505.010976527] [joint_trajectory_controller]: No specific joint names are used for command interfaces. Using 'joints' parameter.
+1763414505.0122845 [gzserver-1] [INFO] [1763414505.011178013] [joint_trajectory_controller]: Command interfaces are [position] and state interfaces are [position velocity].
+1763414505.0124540 [gzserver-1] [INFO] [1763414505.011412108] [joint_trajectory_controller]: Using 'splines' interpolation method.
+1763414505.0174694 [gzserver-1] [INFO] [1763414505.015962732] [joint_trajectory_controller]: Controller state will be published at 50.00 Hz.
+1763414505.0292685 [gzserver-1] [INFO] [1763414505.027764414] [joint_trajectory_controller]: Action status changes will be monitored at 20.00 Hz.
+1763414505.1042404 [spawner-6] [INFO] [1763414505.103515284] [spawner_joint_state_broadcaster]: [92mConfigured and activated [1mjoint_state_broadcaster[0m
+1763414505.1259015 [spawner-7] [INFO] [1763414505.125307404] [spawner_joint_trajectory_controller]: [92mConfigured and activated [1mjoint_trajectory_controller[0m
+1763414505.3964083 [INFO] [spawner-6]: process has finished cleanly [pid 2831]
+1763414505.4047811 [INFO] [spawner-7]: process has finished cleanly [pid 2833]
+1763414537.4926045 [gzserver-1] [ERROR] [1763414537.489138916] [joint_trajectory_controller]: Mismatch between joint_names size (3) and positions (4) at point #0.
+1763414539.4900966 [gzserver-1] [ERROR] [1763414539.487960747] [joint_trajectory_controller]: Mismatch between joint_names size (3) and positions (4) at point #0.
+1763414541.4872601 [gzserver-1] [ERROR] [1763414541.486485225] [joint_trajectory_controller]: Mismatch between joint_names size (3) and positions (4) at point #0.
+1763414543.4888875 [gzserver-1] [ERROR] [1763414543.488247399] [joint_trajectory_controller]: Mismatch between joint_names size (3) and positions (4) at point #0.
+1763415175.0105681 [WARNING] [launch]: user interrupted with ctrl-c (SIGINT)
+1763415175.0470130 [robot_state_publisher-3] [INFO] [1763415175.003544352] [rclcpp]: signal_handler(signum=2)
+1763415175.0482223 [rviz2-5] [INFO] [1763415175.003884793] [rclcpp]: signal_handler(signum=2)
+1763415175.0663092 [ERROR] [slider_publisher-8]: process has died [pid 2835, exit code -2, cmd '/opt/ros/humble/lib/slider_publisher/slider_publisher /home/mariaantonia/ros2_ws/install/scara_bringup/share/scara_bringup/config/scara_vel_sp_config.yaml --ros-args -r __node:=slider_publisher'].
+1763415175.1444452 [INFO] [robot_state_publisher-3]: process has finished cleanly [pid 2825]
+1763415175.5714827 [INFO] [rviz2-5]: process has finished cleanly [pid 2829]
+1763415175.7704651 [INFO] [gzclient-2]: process has finished cleanly [pid 2823]
+1763415175.7955556 [INFO] [gzserver-1]: process has finished cleanly [pid 2821]
